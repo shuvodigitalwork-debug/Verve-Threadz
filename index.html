@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Verve Threadz - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Verve Threadz</h1>
+  <p>Streetwear</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Stay Sharp. Stay Verb</h2>
+    <p>Exclusive designs for streetwear lovers in Bangladesh</p>
+    <a href="products.html" class="btn-hero">Shop Now</a>
+  </div>
+</section>
+
+<div class="container">
+  <h2>Featured Products</h2>
+ <div class="products-grid">
+  <div class="product-card">
+    <img src="DESIGNS/MOCKUP AMIRI.png" alt=" AMIRI">
+    <h3> AMIRI Drop Shoulder T-Shirt</h3>
+    <p>750৳</p>
+    <a href="https://wa.me/8801902404669?text=Hello%20Verve%20Threadz,%20I%20want%20to%20order%20Drop%20Shoulder%20T-Shirt" target="_blank" class="btn-order">Order Now</a>
+  </div>
+
+  <div class="product-card">
+    <img src="DESIGNS/DISCIPLINE DREAMER.png" alt="DROP">
+    <h3>DISCIPLINE DREAMER</h3>
+    <p>750৳</p>
+    <a href="https://wa.me/8801902404669?text=Hello%20Verve%20Threadz,%20I%20want%20to%20order%20Oversized%20Hoodie" target="_blank" class="btn-order">Order Now</a>
+  </div>
+</div>
+
+<!-- Order Modal -->
+<div id="orderModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Place Your Order</h2>
+    <p id="product-name"></p>
+    <p id="product-price"></p>
+    <form id="order-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="phone" placeholder="Phone Number" required>
+      <textarea name="address" placeholder="Delivery Address" required></textarea>
+      <button type="submit">Confirm Order</button>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <img src="DESIGNS/bl copy.png" alt="Verve Threadz Logo" class="footer-logo">
+  <p>
+  Follow us:
+  <a href="https://www.facebook.com/VerveThreadzStreetwear" target="_blank">Facebook</a>
+  <a href="https://www.instagram.com/VerveThreadz" target="_blank">Instagram</a>
+</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
